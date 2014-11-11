@@ -1,16 +1,15 @@
 package com.jqueryui.widget.accordion;
 
-import java.util.HashMap;
-
-import jQuery.JQuery;
-
-import com.google.gson.JsonObject;
-import com.jqueryui.JQueryUI;
-
 import greencode.jscript.DOMHandle;
 import greencode.jscript.Element;
 import greencode.jscript.Window;
 import greencode.jscript.event.Events;
+
+import java.util.HashMap;
+
+import com.google.gson.JsonObject;
+import com.jQuery.JQuery;
+import com.jqueryui.JQueryUI;
 
 public class Accordion extends JQueryUI<Accordion, AccordionOptions>{
 	

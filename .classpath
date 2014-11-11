@@ -15,6 +15,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry combineaccessrules="false" kind="src" path="/jQuery"/>
-	<classpathentry kind="lib" path="D:/programacao/greencodejars/gson-2.2.4.jar"/>
+	<classpathentry kind="lib" path="G:/programacao/java/greencodejars/gson-2.2.4.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

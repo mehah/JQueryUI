@@ -3,7 +3,7 @@ package com.jqueryui;
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-import jQuery.JQuery;
+import com.jQuery.JQuery;
 import greencode.jscript.DOMHandle;
 import greencode.jscript.Element;
 import greencode.jscript.Window;

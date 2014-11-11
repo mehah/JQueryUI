@@ -2,7 +2,7 @@ package com.jqueryui.widget.progressbar;
 
 import java.util.HashMap;
 
-import jQuery.JQuery;
+import com.jQuery.JQuery;
 import greencode.jscript.DOMHandle;
 import greencode.jscript.Element;
 import greencode.jscript.Window;

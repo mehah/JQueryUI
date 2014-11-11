@@ -3,7 +3,7 @@ package com.jqueryui.widget.dialog;
 import greencode.jscript.DOMHandle;
 import greencode.jscript.Element;
 import greencode.jscript.Window;
-import jQuery.JQuery;
+import com.jQuery.JQuery;
 
 import java.util.HashMap;
 import java.util.List;
