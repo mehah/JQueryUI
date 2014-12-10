@@ -1,20 +1,21 @@
 package com.jqueryui;
 
+import greencode.jscript.DOMHandle;
+import greencode.jscript.Node;
+import greencode.jscript.Window;
+import greencode.kernel.Console;
+
 import java.util.HashMap;
 import java.util.Map.Entry;
 
 import com.jQuery.JQuery;
-import greencode.jscript.DOMHandle;
-import greencode.jscript.Element;
-import greencode.jscript.Window;
-import greencode.kernel.Console;
 
 public abstract class JQueryUI<E extends JQueryUI<E, O>, O extends Enum<O>> extends JQuery {
 	public JQueryUI(String selector, boolean initialize) {
 		super(selector); if(initialize) initialize(null);
 	}
 	
-	public JQueryUI(Element e, boolean initialize) {
+	public JQueryUI(Node e, boolean initialize) {
 		super(e); if(initialize) initialize(null);
 	}
 
@@ -26,7 +27,7 @@ public abstract class JQueryUI<E extends JQueryUI<E, O>, O extends Enum<O>> exte
 		super(selector); initialize(null);
 	}
 	
-	public JQueryUI(Element e) {
+	public JQueryUI(Node e) {
 		super(e); initialize(null);
 	}
 
@@ -38,7 +39,7 @@ public abstract class JQueryUI<E extends JQueryUI<E, O>, O extends Enum<O>> exte
 		super(selector); initialize(options);
 	}
 	
-	public JQueryUI(Element e, HashMap<O, Object> options) {
+	public JQueryUI(Node e, HashMap<O, Object> options) {
 		super(e); initialize(options);
 	}
 
@@ -46,7 +47,7 @@ public abstract class JQueryUI<E extends JQueryUI<E, O>, O extends Enum<O>> exte
 		super(j); initialize(options);
 	}
 	
-	public JQueryUI(Element e, HashMap<O, Object> options, Window window) {
+	public JQueryUI(Node e, HashMap<O, Object> options, Window window) {
 		super(e, window); initialize(options);
 	}
 
