@@ -3,12 +3,12 @@ package com.jqueryui.widget.spinner;
 import java.util.HashMap;
 
 import com.jQuery.JQuery;
-import greencode.jscript.DOMHandle;
-import greencode.jscript.Element;
-import greencode.jscript.Window;
-
 import com.google.gson.JsonObject;
 import com.jqueryui.JQueryUI;
+
+import greencode.jscript.DOMHandle;
+import greencode.jscript.dom.Element;
+import greencode.jscript.dom.Window;
 
 public class Spinner extends JQueryUI<Spinner, SpinnerOptions>{
 	public Spinner(Element e, boolean initialize) { super(e, initialize); }

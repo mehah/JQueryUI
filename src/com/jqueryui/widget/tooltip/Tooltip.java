@@ -2,13 +2,13 @@ package com.jqueryui.widget.tooltip;
 
 import java.util.HashMap;
 
-import greencode.jscript.DOMHandle;
-import greencode.jscript.Element;
-import greencode.jscript.Window;
-
 import com.google.gson.JsonObject;
 import com.jQuery.JQuery;
 import com.jqueryui.JQueryUI;
+
+import greencode.jscript.DOMHandle;
+import greencode.jscript.dom.Element;
+import greencode.jscript.dom.Window;
 
 public class Tooltip extends JQueryUI<Tooltip, TooltipOptions>{
 	public Tooltip(Element e, boolean initialize) { super(e, initialize); }

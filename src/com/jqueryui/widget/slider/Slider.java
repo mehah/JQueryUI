@@ -3,11 +3,11 @@ package com.jqueryui.widget.slider;
 import java.util.HashMap;
 
 import com.jQuery.JQuery;
-import greencode.jscript.DOMHandle;
-import greencode.jscript.Element;
-import greencode.jscript.Window;
-
 import com.jqueryui.JQueryUI;
+
+import greencode.jscript.DOMHandle;
+import greencode.jscript.dom.Element;
+import greencode.jscript.dom.Window;
 
 public class Slider extends JQueryUI<Slider, SliderOptions>{
 	public Slider(Element e, boolean initialize) { super(e, initialize); }

@@ -1,6 +1,6 @@
 package com.jqueryui.widget.dialog;
 
-import greencode.jscript.FunctionHandle;
+import greencode.jscript.dom.FunctionHandle;
 
 public class DialogButton {
 	private String text;

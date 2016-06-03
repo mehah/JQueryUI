@@ -1,6 +1,6 @@
 package com.jqueryui.widget.dialog;
 
-import greencode.jscript.event.Events;
+import greencode.jscript.dom.event.Events;
 
 public abstract class DialogEvents extends Events {
 	public static final String DIALOG_BEFORE_CLOSE = "dialogbeforeclose";

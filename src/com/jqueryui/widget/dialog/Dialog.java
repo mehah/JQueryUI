@@ -1,14 +1,15 @@
 package com.jqueryui.widget.dialog;
 
-import greencode.jscript.DOMHandle;
-import greencode.jscript.Element;
-import greencode.jscript.Window;
 import com.jQuery.JQuery;
 
 import java.util.HashMap;
 import java.util.List;
 
 import com.jqueryui.JQueryUI;
+
+import greencode.jscript.DOMHandle;
+import greencode.jscript.dom.Element;
+import greencode.jscript.dom.Window;
 
 public class Dialog extends JQueryUI<Dialog, DialogOptions>{
 	public Dialog(Element e, boolean initialize) { super(e, initialize); }

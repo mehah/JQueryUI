@@ -1,9 +1,9 @@
 package com.jqueryui.widget.accordion;
 
 import greencode.jscript.DOMHandle;
-import greencode.jscript.Element;
-import greencode.jscript.Window;
-import greencode.jscript.event.Events;
+import greencode.jscript.dom.Element;
+import greencode.jscript.dom.Window;
+import greencode.jscript.dom.event.Events;
 
 import java.util.HashMap;
 

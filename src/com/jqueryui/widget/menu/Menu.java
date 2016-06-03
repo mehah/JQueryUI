@@ -3,12 +3,12 @@ package com.jqueryui.widget.menu;
 import java.util.HashMap;
 
 import com.jQuery.JQuery;
-import greencode.jscript.DOMHandle;
-import greencode.jscript.Element;
-import greencode.jscript.Window;
-
 import com.google.gson.JsonObject;
 import com.jqueryui.JQueryUI;
+
+import greencode.jscript.DOMHandle;
+import greencode.jscript.dom.Element;
+import greencode.jscript.dom.Window;
 
 public class Menu extends JQueryUI<Menu, MenuOptions>{
 	public Menu(Element e, boolean initialize) { super(e, initialize); }

@@ -1,8 +1,8 @@
 package com.jqueryui;
 
 import greencode.jscript.DOMHandle;
-import greencode.jscript.Node;
-import greencode.jscript.Window;
+import greencode.jscript.dom.Node;
+import greencode.jscript.dom.Window;
 import greencode.kernel.Console;
 
 import java.util.HashMap;
