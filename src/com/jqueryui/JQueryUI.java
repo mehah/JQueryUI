@@ -91,7 +91,7 @@ public abstract class JQueryUI<E extends JQueryUI<E, O>, O extends Enum<O>> exte
 		{
 			widget = getInstance(window);
 			DOMHandle.setVariableValue(this, COMPONENT_VAR_NAME+"widget", widget);
-			DOMHandle.registerReturnByCommand(this, DOMHandle.getUID(widget), componentName, "widget");
+			DOMHandle.registerReturnByCommand(widget, this, componentName, "widget");
 		}
 		
 		return widget;
