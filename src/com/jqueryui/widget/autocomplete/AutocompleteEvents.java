@@ -1,6 +1,6 @@
 package com.jqueryui.widget.autocomplete;
 
-import greencode.jscript.dom.event.Events;
+import com.jrender.jscript.dom.event.Events;
 
 public abstract class AutocompleteEvents extends Events {
 	public static final String AUTOCOMPLETE_CHANGE = "autocompletechange";

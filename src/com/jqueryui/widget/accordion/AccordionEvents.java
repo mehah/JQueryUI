@@ -1,6 +1,6 @@
 package com.jqueryui.widget.accordion;
 
-import greencode.jscript.dom.event.Events;
+import com.jrender.jscript.dom.event.Events;
 
 public abstract class AccordionEvents extends Events {
 	public static final String ACCORDION_ACTIVATE = "accordionactivate";

@@ -1,6 +1,6 @@
 package com.jqueryui.widget.spinner;
 
-import greencode.jscript.dom.event.Events;
+import com.jrender.jscript.dom.event.Events;
 
 public abstract class SpinnerEvents extends Events {
 	public static final String SPIN_CHANGE = "spinchange";

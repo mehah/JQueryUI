@@ -1,6 +1,6 @@
 package com.jqueryui.widget.progressbar;
 
-import greencode.jscript.dom.event.Events;
+import com.jrender.jscript.dom.event.Events;
 
 public abstract class ProgressbarEvents extends Events {
 	public static final String PROGRESSBAR_CHANGE = "progressbarchange";

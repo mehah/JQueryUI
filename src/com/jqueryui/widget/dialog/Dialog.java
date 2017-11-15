@@ -7,9 +7,9 @@ import java.util.List;
 
 import com.jqueryui.JQueryUI;
 
-import greencode.jscript.DOMHandle;
-import greencode.jscript.dom.Element;
-import greencode.jscript.dom.Window;
+import com.jrender.jscript.DOMHandle;
+import com.jrender.jscript.dom.Element;
+import com.jrender.jscript.dom.Window;
 
 public class Dialog extends JQueryUI<Dialog, DialogOptions>{
 	public Dialog(Element e, boolean initialize) { super(e, initialize); }

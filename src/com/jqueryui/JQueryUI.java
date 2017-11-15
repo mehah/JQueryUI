@@ -1,9 +1,9 @@
 package com.jqueryui;
 
-import greencode.jscript.DOMHandle;
-import greencode.jscript.dom.Node;
-import greencode.jscript.dom.Window;
-import greencode.kernel.Console;
+import com.jrender.jscript.DOMHandle;
+import com.jrender.jscript.dom.Node;
+import com.jrender.jscript.dom.Window;
+import com.jrender.kernel.Console;
 
 import java.util.HashMap;
 import java.util.Map.Entry;

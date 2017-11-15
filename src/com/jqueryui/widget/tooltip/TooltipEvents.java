@@ -1,6 +1,6 @@
 package com.jqueryui.widget.tooltip;
 
-import greencode.jscript.dom.event.Events;
+import com.jrender.jscript.dom.event.Events;
 
 public abstract class TooltipEvents extends Events {
 	public static final String TOOLTIP_CLOSE = "tooltipclose";

@@ -5,9 +5,9 @@ import java.util.HashMap;
 import com.jQuery.JQuery;
 import com.jqueryui.JQueryUI;
 
-import greencode.jscript.DOMHandle;
-import greencode.jscript.dom.Element;
-import greencode.jscript.dom.Window;
+import com.jrender.jscript.DOMHandle;
+import com.jrender.jscript.dom.Element;
+import com.jrender.jscript.dom.Window;
 
 public class ButtonSet extends JQueryUI<ButtonSet, ButtonSetOptions>{
 	
